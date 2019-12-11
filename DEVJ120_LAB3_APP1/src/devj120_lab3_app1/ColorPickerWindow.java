@@ -97,36 +97,4 @@ public class ColorPickerWindow extends JFrame{
     StringSelection selection = new StringSelection(text);
     clipboard.setContents(selection, selection);
     }
-   
 }
-
-//    public void addSlider(JSlider slider, String description){
-//    JPanel panel = new JPanel();
-//    
-//    GridBagLayout gbl = new GridBagLayout();
-//    panel.setLayout(gbl);
-//    
-//    GridBagConstraints c =  new GridBagConstraints();
-//    c.weightx = 0.0;
-//    c.weighty = 0.0;
-//    
-//    GridBagConstraints c1 =  new GridBagConstraints();
-//    c1.weightx = 1.0;
-//    c1.weighty = 1.0;
-//        
-//    panel.setBackground(Color.WHITE);
-//    slider.setBackground(Color.WHITE);
-//    slider.setPaintTicks(true);
-//    slider.setPaintLabels(true);
-//    slider.setMinorTickSpacing(32);
-//    slider.setMajorTickSpacing(255);
-//    
-//    
-//    JLabel label = new JLabel(description);
-//    panel.add(label);
-//    gbl.setConstraints(label, c);
-//    
-//    panel.add(slider);
-//    gbl.setConstraints(slider, c1);
-//    sliderPanel.add(panel);
-//   }
